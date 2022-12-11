@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	int number = 0;
+	int number;
 	if (number > 0)
 			printf("%d is  positive\n", number);
 	else if (number < 0)
