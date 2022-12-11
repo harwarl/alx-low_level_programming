@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main -To check if a number is positive, negative, or zero
  *
@@ -7,6 +9,9 @@
 int main(void)
 {
 	int number;
+
+	number = srand(time(0));
+	
 	if (number > 0)
 			printf("%d is  positive\n", number);
 	else if (number < 0)
