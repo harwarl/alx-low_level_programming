@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
 /**
  * main- To check if a number is positive or negative or zero
  *
@@ -23,4 +22,5 @@ int main(void)
 		printf(" and is less than 6 and not 0\n");
 	else
 		printf(" and is 0\n");
+	return (0);
 }
