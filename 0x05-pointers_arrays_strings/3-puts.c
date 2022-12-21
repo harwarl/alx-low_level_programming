@@ -1,12 +1,13 @@
 #include "main.h"
 /**
- * _puts - the name of the function
- * @str: the inputted string
- * Return: 0
+ * _puts - prints a string
+ * @str: the string
+ *
+ * Return: the length of the string
  */
 void _puts(char *str)
 {
-	int i;
+	int i = 0;
 
 	while (str[i] != '\0')
 	{
@@ -14,5 +15,4 @@ void _puts(char *str)
 		i++;
 	}
 	_putchar('\n');
-
 }
